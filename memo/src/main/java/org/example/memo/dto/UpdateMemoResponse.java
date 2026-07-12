@@ -1,7 +1,10 @@
 package org.example.memo.dto;
 
+import lombok.Getter;
+
 import java.time.LocalDateTime;
 
+@Getter
 public class UpdateMemoResponse {
     private final long id;
     private final String name;
